@@ -36,51 +36,51 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Facepunch.Console">
-      <HintPath>..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Facepunch.Console.dll</HintPath>
+      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Facepunch.Console.dll</HintPath>
     </Reference>
     <Reference Include="Facepunch.Network">
-      <HintPath>..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Facepunch.Network.dll</HintPath>
+      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Facepunch.Network.dll</HintPath>
     </Reference>
     <Reference Include="Facepunch.Rcon">
-      <HintPath>..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Facepunch.Rcon.dll</HintPath>
+      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Facepunch.Rcon.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Data.Tds">
-      <HintPath>..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Mono.Data.Tds.dll</HintPath>
+      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Mono.Data.Tds.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data">
-      <HintPath>..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\MySql.Data.dll</HintPath>
+      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="NewAssembly">
-      <HintPath>..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\NewAssembly.dll</HintPath>
+      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\NewAssembly.dll</HintPath>
     </Reference>
     <Reference Include="Oxide.Core">
-      <HintPath>..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.Core.dll</HintPath>
+      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.Core.dll</HintPath>
     </Reference>
     <Reference Include="Oxide.CSharp">
-      <HintPath>..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.CSharp.dll</HintPath>
+      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Oxide.MySql">
-      <HintPath>..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.MySql.dll</HintPath>
+      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.MySql.dll</HintPath>
     </Reference>
     <Reference Include="Oxide.References">
-      <HintPath>..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.References.dll</HintPath>
+      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.References.dll</HintPath>
     </Reference>
     <Reference Include="Oxide.Rust">
-      <HintPath>..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.Rust.dll</HintPath>
+      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.Rust.dll</HintPath>
     </Reference>
     <Reference Include="Oxide.SQLite">
-      <HintPath>..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.SQLite.dll</HintPath>
+      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.SQLite.dll</HintPath>
     </Reference>
     <Reference Include="Oxide.Unity">
-      <HintPath>..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.Unity.dll</HintPath>
+      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.Unity.dll</HintPath>
     </Reference>
     <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.SQLite">
-      <HintPath>..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\System.Data.SQLite.dll</HintPath>
+      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\System.Data.SQLite.dll</HintPath>
     </Reference>
     <Reference Include="System.Drawing" />
     <Reference Include="System.Runtime.Serialization" />
