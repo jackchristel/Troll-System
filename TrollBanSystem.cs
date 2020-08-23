@@ -1,5 +1,4 @@
 ﻿using Oxide.Core.Libraries.Covalence;
-using Oxide.Game.Rust.Libraries;
 
 namespace Oxide.Plugins
 {
@@ -13,15 +12,15 @@ namespace Oxide.Plugins
         }
 
         [Command("tban")]
-        private void Cmdtban(IPlayer Iplayer, string command, string[] args)
+        private void Cmdtban(IPlayer player, string command, string[] args)
         {
-         Broadcast($"{player.displayName} banned {string.Join(" ", args)}");
+            server.Broadcast($"{player.Name} banned {string.Join(" ", args)}");
         }
 
         [Command("tunban")]
-        private void Cmdtunban(IPlayer Iplayer, string command, string[] args)
+        private void Cmdtunban(IPlayer player, string command, string[] args)
         {
-            Broadcast($"{player.displayName} unbanned {string.Join(" ", args)}");
+            server.Broadcast($"{player.Name} unbanned {string.Join(" ", args)}");
         }
 
     }
