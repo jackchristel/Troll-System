@@ -1,2 +1,2 @@
 # Ban-System-Rust
-A easier way to ban people in rust! All you type in chat is "/unban" and "/ban" to use this system.
+A easier way to troll ban someone in rust! doing /ban announces a server message where it says that a player was banned, and /unban announces that a player was unbanned all without actually banning or unbanning anyone!
