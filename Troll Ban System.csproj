@@ -76,6 +76,7 @@
     <Reference Include="Oxide.Unity">
       <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.Unity.dll</HintPath>
     </Reference>
+    <Reference Include="System" />
     <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.SQLite">

@@ -1,6 +1,4 @@
-﻿using ConVar;
-using Network;
-using Oxide.Core.Libraries.Covalence;
+﻿using Oxide.Core.Libraries.Covalence;
 using Oxide.Game.Rust.Libraries;
 
 namespace Oxide.Plugins
@@ -15,10 +13,16 @@ namespace Oxide.Plugins
         }
 
         [Command("tban")]
-        private void BanCommand(IPlayer player, string command, string[] args)
+        private void Cmdtban(IPlayer Iplayer, string command, string[] args)
         {
-            Message = string.Join(" ", args);
+         Broadcast($"{player.displayName} banned {string.Join(" ", args)}");
         }
-        
+
+        [Command("tunban")]
+        private void Cmdtunban(IPlayer Iplayer, string command, string[] args)
+        {
+            Broadcast($"{player.displayName} unbanned {string.Join(" ", args)}");
+        }
+
     }
 }
