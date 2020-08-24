@@ -34,60 +34,74 @@
     <Compile Include="TrollBanSystem.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Assembly-CSharp.dll</HintPath>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rust\Oxide DLLs\Assembly-CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="Facepunch.Console">
-      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Facepunch.Console.dll</HintPath>
+    <Reference Include="Facepunch.Console, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rust\Oxide DLLs\Facepunch.Console.dll</HintPath>
     </Reference>
-    <Reference Include="Facepunch.Network">
-      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Facepunch.Network.dll</HintPath>
+    <Reference Include="Facepunch.Network, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rust\Oxide DLLs\Facepunch.Network.dll</HintPath>
     </Reference>
-    <Reference Include="Facepunch.Rcon">
-      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Facepunch.Rcon.dll</HintPath>
+    <Reference Include="Facepunch.Rcon, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rust\Oxide DLLs\Facepunch.Rcon.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.Data.Tds">
-      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Mono.Data.Tds.dll</HintPath>
+    <Reference Include="Mono.Data.Tds, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rust\Oxide DLLs\Mono.Data.Tds.dll</HintPath>
     </Reference>
-    <Reference Include="MySql.Data">
-      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\MySql.Data.dll</HintPath>
+    <Reference Include="MySql.Data, Version=6.9.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rust\Oxide DLLs\MySql.Data.dll</HintPath>
     </Reference>
-    <Reference Include="NewAssembly">
-      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\NewAssembly.dll</HintPath>
+    <Reference Include="NewAssembly, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rust\Oxide DLLs\NewAssembly.dll</HintPath>
     </Reference>
-    <Reference Include="Oxide.Core">
-      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.Core.dll</HintPath>
+    <Reference Include="Oxide.Core, Version=2.0.3988.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rust\Oxide DLLs\Oxide.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Oxide.CSharp">
-      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.CSharp.dll</HintPath>
+    <Reference Include="Oxide.CSharp, Version=2.0.4037.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rust\Oxide DLLs\Oxide.CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="Oxide.MySql">
-      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.MySql.dll</HintPath>
+    <Reference Include="Oxide.MySql, Version=2.0.3758.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rust\Oxide DLLs\Oxide.MySql.dll</HintPath>
     </Reference>
-    <Reference Include="Oxide.References">
-      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.References.dll</HintPath>
+    <Reference Include="Oxide.References, Version=2.0.3774.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rust\Oxide DLLs\Oxide.References.dll</HintPath>
     </Reference>
-    <Reference Include="Oxide.Rust">
-      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.Rust.dll</HintPath>
+    <Reference Include="Oxide.Rust, Version=2.0.4715.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rust\Oxide DLLs\Oxide.Rust.dll</HintPath>
     </Reference>
-    <Reference Include="Oxide.SQLite">
-      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.SQLite.dll</HintPath>
+    <Reference Include="Oxide.SQLite, Version=2.0.3760.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rust\Oxide DLLs\Oxide.SQLite.dll</HintPath>
     </Reference>
-    <Reference Include="Oxide.Unity">
-      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\Oxide.Unity.dll</HintPath>
+    <Reference Include="Oxide.Unity, Version=2.0.3772.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rust\Oxide DLLs\Oxide.Unity.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
     <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Data.SQLite">
-      <HintPath>..\..\..\..\..\Users\mulch\Downloads\Oxide.Rust\RustDedicated_Data\Managed\System.Data.SQLite.dll</HintPath>
+    <Reference Include="System.Data.SQLite, Version=1.0.97.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rust\Oxide DLLs\System.Data.SQLite.dll</HintPath>
     </Reference>
     <Reference Include="System.Drawing" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Transactions" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
