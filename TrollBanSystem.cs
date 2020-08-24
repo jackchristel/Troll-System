@@ -9,15 +9,17 @@ namespace Oxide.Plugins
         private void Init()
         {
             Puts("A baby plugin is born!");
+            permission.RegisterPermission("tban.use", this);
+            permission.RegisterPermission("tunban.use", this);
         }
 
-        [Command("tban")]
+        [Command("tban"),Permission("tban.use")]
         private void Cmdtban(IPlayer player, string command, string[] args)
         {
             server.Broadcast($"{player.Name} banned {string.Join(" ", args)}");
         }
 
-        [Command("tunban")]
+        [Command("tunban"),Permission("tunban.use")]
         private void Cmdtunban(IPlayer player, string command, string[] args)
         {
             server.Broadcast($"{player.Name} unbanned {string.Join(" ", args)}");
