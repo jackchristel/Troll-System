@@ -1,4 +1,4 @@
-A easier way to troll ban someone in Rust! Doing `/ban` announces a server message where it says that a player was banned, and `/unban` announces that a player was unbanned all without actually banning or unbanning anyone.
+A easier way to troll ban someone in Rust! Doing `/tban` announces a server message where it says that a player was banned, and `/tunban` announces that a player was unbanned all without actually banning or unbanning anyone.
 
 ## Permissions
 
