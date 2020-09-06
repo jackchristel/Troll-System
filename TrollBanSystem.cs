@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Oxide.Plugins
 {
-    [Info("Troll Ban System", "Grave", "0.4.0")]
+    [Info("Troll Ban System", "Grave", "0.5.0")]
     [Description("A easier way to troll ban someone in rust! doing /tban announces a server message where it says that a player was banned, and /tunban announces that a player was unbanned all without actually banning or unbanning anyone!")]
     class TrollBanSystem : CovalencePlugin
     {
