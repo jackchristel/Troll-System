@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Oxide.Plugins
 {
     [Info("Troll System", "Grave", "0.6.0")]
-    [Description("A easier way to troll someone in Rust! The commands available are banning and muting, /tmute, /tunmute, /tban, /tunban, and they all annouce in the chat. Example: /tmute Grave - Announces Grave muted Grave, as I sent the command. This works with unmuting and banning/unbanning.")]
+    [Description("A easier way to troll someone in Rust! The commands available are banning and muting, /tmute, /tunmute, /tban, /tunban, and they all annouce in the chat. Example: /tmute Bill - Announces Grave muted Bill, as I sent the command. This works with unmuting and banning/unbanning.")]
     class TrollSystem : CovalencePlugin
     {
         private void Init()
